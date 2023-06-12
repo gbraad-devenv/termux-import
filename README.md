@@ -1,2 +1,8 @@
-# termux-import
-Import script for Termux
+Import script for Termux 
+========================
+
+### Usage
+```
+$ ./import-devsys.sh <archive location>
+$ ./start-devsys.sh
+```
