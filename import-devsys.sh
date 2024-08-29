@@ -2,12 +2,14 @@
 
 archivelocation=$1
 if [ "$archivelocation" == "" ]; then
-        echo "No archive specfied"; exit 1;;
+        echo "No archive specfied";
+        exit 1;
 fi
 
 folder=devsys-fs
 if [ -d "$folder" ]; then
-        echo "Already imported"; exit 1;;
+        echo "Already imported";
+        exit 1;
 fi
 
 tarball="devsys-rootfs.tar.xz"
