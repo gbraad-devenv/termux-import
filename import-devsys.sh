@@ -54,8 +54,8 @@ command="proot"
 command+=" --link2symlink"
 command+=" -0"
 command+=" -r $folder"
-if [ -n "\$(ls -A fedora-binds)" ]; then
-    for f in fedora-binds/* ;do
+if [ -n "\$(ls -A devsys-binds)" ]; then
+    for f in devsys-binds/* ;do
       . \$f
     done
 fi
